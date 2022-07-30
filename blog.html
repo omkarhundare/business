@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <!-- <script src="https://kit.fontawesome.com/60e6b0cb5e.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/60e6b0cb5e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav class="navbar">
+            <div class="brand-name">
+                <a href="index.html">
+                    <h1 class="logo">Dynamic</h1>
+                </a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars menu-b" onclick="showMenu()"></i>
+        </nav>
+        <h2>OUR CERTIFICATE & ONLINE PROGRAMS 2022</h2>
+    </section>
+
+    <!-- BLOG section  -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/pexels-hai-nguyen-1699414.jpg" alt="">
+                <h3>OUR CERTIFICATE & ONLINE PROGRAMS 2022</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At id sed quae asperiores laudantium magni aperiam voluptas ducimus accusamus explicabo. Ipsa placeat architecto odio porro at velit corrupti tenetur soluta.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur beatae eius impedit, voluptas maxime corporis? Voluptates perspiciatis dolore dolor repellendus enim numquam in. Assumenda recusandae voluptatem ipsam praesentium, eum a nihil odio, accusantium quasi alias, rerum laborum autem itaque quibusdam.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur odit cupiditate pariatur quis, eius doloribus minus corporis ut eum totam excepturi, iusto aliquid. Cupiditate est quam sed doloremque, laborum ipsam omnis, veniam amet reprehenderit officia numquam? Id, magni aliquam. Eveniet dolorum ducimus nemo nobis expedita?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus alias consectetur, quae accusamus maxime placeat. Natus, cupiditate nemo magnam, reprehenderit doloremque culpa porro recusandae quibusdam doloribus voluptate unde eligendi aspernatur!</p>
+                  
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                         <textarea rows="10" placeholder="Enter Comment"></textarea>
+                         <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+
+
+            </div>
+            <div class="blog-right">
+         <h3>POST CATAGORIES</h3>
+         <div>
+            <span>Business Analytics</span>
+            <span>30</span>
+         </div>
+
+         <div>
+            <span>Machine Learning</span>
+            <span>55</span>
+         </div>
+
+         <div>
+            <span>Data Science</span>
+            <span>60</span>
+         </div>
+
+         <div>
+            <span>Computer Science</span>
+            <span>45</span>
+         </div>
+
+         <div>
+            <span>Autocad</span>
+            <span>35</span>
+         </div>
+
+         <div>
+            <span>Journalism</span>
+            <span>40</span>
+         </div>
+
+         <div>
+            <span>Commerce</span>
+            <span>50</span>
+         </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- footer section  -->
+
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molestiae deleniti<br> saepe sed. Illo, architecto
+            dolorem.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Copyright &copy; omkar || All Right Are Reserved 2022</p>
+    </footer>
+
+
+
+
+
+    <script>
+
+        var navLinks = document.getElementById('navLinks');
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

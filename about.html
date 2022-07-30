@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <!-- <script src="https://kit.fontawesome.com/60e6b0cb5e.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/60e6b0cb5e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav class="navbar">
+            <div class="brand-name">
+                <a href="index.html">
+                    <h1 class="logo">Dynamic</h1>
+                </a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars menu-b" onclick="showMenu()"></i>
+        </nav>
+        <h2>About Us</h2>
+    </section>
+
+    <!-- section About-Us  -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The World Largest University.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ratione labore reiciendis ut sit
+                    minima quasi numquam? Ipsum tempore neque accusamus corporis! Placeat explicabo maiores architecto
+                    libero facere, facilis nulla.</p>
+                <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- footer section  -->
+
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molestiae deleniti<br> saepe sed. Illo, architecto
+            dolorem.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Copyright &copy; omkar || All Right Are Reserved 2022</p>
+    </footer>
+
+
+
+
+
+    <script>
+
+        var navLinks = document.getElementById('navLinks');
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
